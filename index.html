@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone_game</title>
+  <script src="https://kit.fontawesome.com/ac77548c44.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+  <div class="img1"></div>
+  <div class="img2">
+    <div class="cir1"></div>
+  </div>
+  <div class="img3">
+    <div class="cir1"></div>
+    <div class="cir2"></div>
+  </div>
+  <div class="img4">
+    <div class="cir1"></div>
+    <div class="cir2"></div>
+  </div>
+  <div class="img5">
+    <div class="cir1"></div>
+  </div>
+  <div class="img6"></div>
+  <h2 id="logo">logo</h2>
+  <section>
+    <div id="motion">
+      <h3>[&nbsp;&nbsp;&nbsp;<span>MORTON</span>&nbsp;&nbsp;&nbsp;]</h3>
+      <div id="display">
+        <div id="imogi"></div>
+        <div id="gameFace">
+          <div id="message"></div>
+        </div>
+      </div>
+      <div id="control">
+        <div class="sound" class="soundon"><i class="fa-solid fa-volume-high"></i></div>
+        <div class="sound" class="soundoff"><i class="fa-solid fa-volume-xmark"></i></div>
+        <div id="soundup">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar2"></div>
+          <div class="bar1"></div>
+        </div>
+        <div id="lebel">
+          <div class="line1">
+            <div id="lebel1">130</div>
+            <div id="lebel2">100</div>
+            <div id="lebel3">70</div>
+            <div id="controler"></div>
+          </div>
+        </div>
+        <div id="btnWrap">
+          <div id="btn1" class="btn" onclick="checkMemory('🐶')">
+            <div class="btnInside">
+              <p>🐶</p>
+            </div>
+          </div>
+          <div id="btn2" class="btn" onclick="checkMemory('🐱')">
+            <div class="btnInside">
+              <p>🐱</p>
+            </div>
+          </div>
+          <div id="btn3" class="btn" onclick="checkMemory('🐭')">
+            <div class="btnInside">
+              <p>🐭</p>
+            </div>
+          </div>
+          <div id="btn4" class="btn" onclick="checkMemory('🐹')">
+            <div class="btnInside">
+              <p>🐹</p>
+            </div>
+          </div>
+          <div id="btn5" class="btn" onclick="checkMemory('🐰')">
+            <div class="btnInside">
+              <p>🐰</p>
+            </div>
+          </div>
+          <div id="btn6" class="btn" onclick="startGame()">
+            <div class="btnInside">
+              <p>🦊</p>
+            </div>
+          </div>
+          <div id="btn7" class="btn" onclick="checkMemory('🐻')">
+            <div class="btnInside">
+              <p>🐻</p>
+            </div>
+          </div>
+          <div id="btn8" class="btn" onclick="checkMemory('🐼')">
+            <div class="btnInside">
+              <p>🐼</p>
+            </div>
+          </div>
+          <div id="btn9" class="btn" onclick="checkMemory('🐯')">
+            <div class="btnInside">
+              <p>🐯</p>
+            </div>
+          </div>
+          <div id="btn10" class="btn" onclick="checkMemory('🦁')">
+            <div class="btnInside">
+              <p>🦁</p>
+            </div>
+          </div>
+          <div id="btn11" class="btn" onclick="checkMemory('🐷')">
+            <div class="btnInside">
+              <p>🐷</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="intro">
+        <div class="playnint">
+          <div></div>
+        </div>
+        <div class="tag1">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="ment"><span>SITE BY</span>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="game">
+      <h3>[&nbsp;&nbsp;&nbsp;<span>PLAY THE GAME</span>&nbsp;&nbsp;&nbsp;]</h3>
+      <div class="access">
+        <h4>ACCESS WAITING LIST</h4>
+        <input type="email" placeholder="ENTER YOUR EMAIL ENTER YOUR EMAIL ENTER YOUR EMAIL"><br />
+        <button id="signUp">SIGN UP</button>
+      </div>
+      <div class="current">
+        <h4>CURRENT PLAYTEST</h4>
+        <div>INACTIVE</div>
+      </div>
+      <div class="report">
+        <h4>PLAYTEST REPORT</h4>
+      </div>
+      <video autoplay loop muted>
+        <source type="video/mp4" src="images/pexels-khanh-hoang-minh-19570048 (2160p).mp4">
+      </video>
+    </div>
+  </section>
+  <script src="js/game.js"></script>
+  <script src="js/motion.js"></script>
+  <script src="js/rolling.js"></script>
+
+
+</body>

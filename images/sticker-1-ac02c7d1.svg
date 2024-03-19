@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 289 277">
+  <g filter="url(#a)">
+    <ellipse cx="104.3" cy="170.5" fill="white" rx="17.5" ry="23" transform="rotate(-15 104 171)"/>
+    <ellipse cx="194.6" cy="128.3" fill="white" rx="17.5" ry="23" transform="rotate(-15 195 128)"/>
+    <path fill="#CFCBD7" stroke="white" stroke-width="9" d="M199 34c-7 1-13 6-15 13v2c-26-11-55-13-82-1-28 13-45 37-53 63h-1c-6-3-14-2-20 2-2 3-5 6-5 10a25 25 0 0 0 20 28c0 19 4 38 11 53 14 32 42 41 69 40a168 168 0 0 0 115-54c18-20 29-47 14-79-7-15-19-30-34-42a25 25 0 0 0-8-33c-4-3-8-3-11-2Zm-85 131c5 9 2 18-4 20-5 3-13 0-18-10-4-9-1-18 4-20 6-3 14 0 18 10Zm92-42c4 10 1 18-4 21-6 2-14-1-19-10-4-10-1-18 5-21 5-2 13 1 18 10Z"/>
+    <mask id="b" width="229" height="203" x="26" y="37" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="white" fill-rule="evenodd" d="M212 70c4-5 7-13 3-22-8-17-24-9-27 0v7a97 97 0 0 0-84-3 97 97 0 0 0-52 67l-6-4c-9-5-25 3-17 20 4 9 12 11 19 12-1 20 2 40 10 55 27 59 103 33 126 23 23-11 91-53 64-112-7-15-20-31-36-43Zm-93 93c4 11 2 23-7 26-8 4-19-1-24-12s-2-23 6-26c9-4 20 1 25 12Zm84-15c9-4 12-16 7-26-5-11-16-17-24-13-9 4-12 16-7 26 5 11 16 17 24 13Z" clip-rule="evenodd"/>
+    </mask>
+    <g mask="url(#b)">
+      <path fill="url(#c)" d="M169 14-4 50l31 197 97 17 45-250Z" opacity=".3"/>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="c" x1="80.5" x2="121.3" y1="29.7" y2="264.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="a" width="248.5" height="223.3" x="16" y="29" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="2"/>
+      <feGaussianBlur stdDeviation=".7"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.32 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_468_17962"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow_468_17962" result="shape"/>
+    </filter>
+  </defs>
+</svg>
